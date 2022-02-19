@@ -1,0 +1,65 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline ;
+    align-items: center;
+    width: 350px;
+    margin-top: -25px;
+    margin-left: -15px;
+    margin-right: 20px;
+    text-align: center;
+}
+.space {
+    border-left: solid rgba(243, 167, 139, 0.733);
+    margin-top: 1px
+}
+.card > img{
+    width: 6rem;
+    height: 6rem;
+    margin-top: -10px;
+    
+}
+
+.primary{
+   font-size:  25px;
+   font-weight:lighter ;
+   font-family: 'Scheherazade New', serif;
+   color: rgb(245, 245, 245);
+   font-weight: 200;
+   border-radius: inherit;
+   margin-left: 730px;
+}
+.primary > img{
+    width: 15rem;
+    height: 10rem
+}
+
+
+.temp{
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+    
+}
+
+.temp + .temp{
+    margin-left: 3rem;
+    
+}
+
+.temps {
+    display: flex;
+    
+}
+.closeBtn{
+    display:flex;
+    background-color: rgba(255, 0, 0, 0.692);
+    border-radius: 5px;
+    margin-top: 24.3px;
+    margin-left: 300px;
+}
+
+

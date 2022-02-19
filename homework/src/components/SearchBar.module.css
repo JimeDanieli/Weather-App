@@ -1,0 +1,13 @@
+.container{
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.btnSearch{
+    color: black;
+    background-color:rgb(252, 248, 248) ;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 5px;
+}

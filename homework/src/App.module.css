@@ -1,0 +1,58 @@
+.app{
+/* background-image: url("./assets/bkg.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+position: absolute; */
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+.bkg{
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(16px);
+    background-color: #a19f9f13;
+}
+
+.container{
+    width: 70vw;
+    height: 70vh;
+    position: absolute;
+    margin: 15vh 15vw;
+    top: 0;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50vh 20vh;
+    /* background-image: url("./assets/bkg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; como se repiten ciertas caracteristicas, las junto abajo */ 
+   /*  align-items: center;
+    flex-direction: row; */
+    font-family: 'Scheherazade New', serif;
+    
+    
+}
+
+.citiesContainer{
+   display: flex;
+   height: 200vh;
+   background-color: #ffffff60;
+   backdrop-filter: blur(16px);
+   /* align-items: center;
+   flex-direction: row; */
+   justify-content: space-between;
+   margin-top: -25px;
+   
+}
+
+.app,
+.container{
+    background-image: url(https://images.unsplash.com/photo-1637222674661-1d14ae598884?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 1.5rem;
+}

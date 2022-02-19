@@ -1,0 +1,16 @@
+.Cards {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+  
+
+}
+.temp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.space {
+    border-left: solid rgba(243, 167, 139, 0.733);
+    margin-top: 1px
+}
